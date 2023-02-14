@@ -11,7 +11,7 @@ type Props = {
 
 const TeskForm = ({btnText}: Props) => {
 
-  const [id, seId] = useState<number>(0);
+  const [id, seTId] = useState<number>(0);
   const [title, setTitle] = useState<string>('')
   const [difficulty, setDifficulty] = useState<number>(0)
 
